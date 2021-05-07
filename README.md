@@ -13,7 +13,7 @@ Varying colors are added as an extra source of visual distinction, but are not t
 
 ## Examples
 
-Here are some examples of output from version 1 of the generator: 
+Here are some examples of output from version 1 of the generator, which outputs vector graphics: 
 
 <table><tr><td>
 <img src="v1-SVGfill/outputvectors/glyph3-127.svg" width="80">
