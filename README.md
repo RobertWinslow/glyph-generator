@@ -38,7 +38,7 @@ Something like the following in a readme will suffice:
 
 > Copyright 2021 Robert Winslow, CC-BY-4.0
 
-_Of course, many of the resulting images are things like 'yellow square with a big S on it', and are too simple to fall under copyright, but attribution would be appreciated nonetheless._
+_Of course, many of the resulting images are things like 'yellow square with a big S on it', and are too simple to individually fall under copyright, but attribution would be appreciated nonetheless._
 
 ### Color Schemes Used
 - [Paul Tol's colorblind friendly color schemes.](https://personal.sron.nl/~pault/)
