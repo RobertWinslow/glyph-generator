@@ -1,4 +1,4 @@
-# Glyph Generator
+# Open Glyph Generator
 Generates a large number of visually distinct open license images.
 
 After watching [this video by Matt Parker](https://www.youtube.com/watch?v=VTDKqW_GLkw), I was inspired to make my own version of "Myriad Monomatch" using only open-license images.
