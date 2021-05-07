@@ -33,8 +33,10 @@ Here are some examples of output from version 1 of the generator:
 
 ### Images
 All generated images in this repo are usable under [CC-BY-4.0](https://creativecommons.org/licenses/by/4.0/), 
-meaning you can use them in any way you like as long as you provide attribution.  
-Copyright 2021 Robert Winslow
+meaning you can use them in any way you like as long as you provide attribution and link to the license. 
+Something like the following in a readme will suffice:
+
+> Copyright 2021 Robert Winslow, CC-BY-4.0
 
 _Of course, many of the resulting images are things like 'yellow square with a big S on it', and are too simple to fall under copyright, but attribution would be appreciated nonetheless._
 
