@@ -7,6 +7,14 @@ Created on Tue May  4 20:36:53 2021
 This programmitically generates glyphs to include in the cards. I need about 5 thousand of them. Fortunarely, Unicode already contains thousands of distinct glyphs. So If I choose a few hundred I like and combine them with several distinct background decorations, that should do the trick.
 
 The images also have a cycling pattern of colors applied,  but this is not used to dinstinguish between images; any two images should be dinstinct by shape alone.
+
+To view the images with the intended results, you need the following fonts:
+    
+    Computer Modern (SIL Open Font license)
+    Ma Shan Zheng (SIL Open Font license)
+    Quivira (Public Domain)
+
+
 """
 import os
 
@@ -17,12 +25,7 @@ preamblesnippet = '''<?xml version="1.0" encoding="UTF-8"?>
 '''
 
 
-textsnippet='<text x="500" y="720" font-size="750" font-family="Quivira, Ma Shan Zheng" fill="PLACEHOLDERCOLOR" text-anchor="middle">PLACEHOLDERTEXT</text>'
-# CMU Serif, Ma Shan Zheng, Catrinity, DejaVu Sans 
-#Unifont Upper, ZCOOL Kuaile ,Long Cang, Liu Jian Mao Cao, Symbola
-# CMU Serif, Ma Shan Zheng, DejaVu Sans, Code2000
-# WenQuanYi Zen Hei is GPL, not sure whether font exception exists
-# Code2000 is "shareware", and I'm not entirely sure what that means.
+textsnippet='<text x="500" y="720" font-size="750" font-family="CMU Serif, Ma Shan Zheng, Quivira" fill="PLACEHOLDERCOLOR" text-anchor="middle">PLACEHOLDERTEXT</text>'
 
 endsnippet='</svg>'
 
