@@ -7,7 +7,7 @@ After watching [this video by Matt Parker](https://www.youtube.com/watch?v=VTDKq
 **Problem:** I need over 10,000 such images to make the cards.
 
 **Solution:** Unicode fonts already contain many visually distinct glyphs. So I multiply several-hundred characters from open fonts with a set of backgrounds I made myself.
-Carying colors are added as an extra source of visual distinction, but are not themselves used to distinguish between pips.
+Varying colors are added as an extra source of visual distinction, but are not themselves used to distinguish between pips.
 
 
 
