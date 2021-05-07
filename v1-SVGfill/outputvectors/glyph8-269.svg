@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="10in" height="10in" version="1.1" viewBox="0 0 1000 1000" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<circle id="d" cx="134.03" cy="134.03" r="109.03" style="fill:#CDA;paint-order:stroke fill markers;stroke-linecap:round;stroke-width:50;stroke:#252"/>
+ <use id="b" transform="translate(731.95)" width="100%" height="100%" xlink:href="#d"/>
+ <use id="a" transform="translate(-731.95 731.95)" width="100%" height="100%" xlink:href="#b"/>
+ <use transform="translate(731.95)" width="100%" height="100%" xlink:href="#a"/>
+ <rect id="c" transform="rotate(45)" x="666.22" y="-575.61" width="81.78" height="1151.2" style="fill:#CDA;paint-order:stroke fill markers"/>
+ <use transform="matrix(-1 0 0 1 1e3 -2.0361e-6)" width="100%" height="100%" style="stroke:#CDA" xlink:href="#c"/>
+                  <text x="500" y="720" font-size="750" font-family="CMU Serif, Ma Shan Zheng, Quivira" fill="#113074" text-anchor="middle">⚅</text></svg>
