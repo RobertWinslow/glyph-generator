@@ -15,11 +15,11 @@ Carying colors are added as an extra source of visual distinction, but are not t
 
 Here are some examples of output from version 1 of the generator: 
 
-![](\outputvectors\glyph2-345.svg)
+![](\v1-SVGfill\outputvectors\glyph2-345.svg)
 
 
 
-![](\outputvectors2\glyph0-0.png)
+![](\v1-SVGfill\outputvectors2\glyph0-0.png)
 
 ---
 
