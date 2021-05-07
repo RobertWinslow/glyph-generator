@@ -31,19 +31,19 @@ Here are some examples of output from version 1 of the generator:
 ## Licensing and Attribution.
 
 
-## Original Images
-All original images in this repo are usable under [CC-BY-4.0](https://creativecommons.org/licenses/by/4.0/), 
+### Images
+All generated images in this repo are usable under [CC-BY-4.0](https://creativecommons.org/licenses/by/4.0/), 
 meaning you can use them in any way you like as long as you provide attribution.  
 Copyright 2021 Robert Winslow
 
 _Of course, many of the resulting images are things like 'yellow square with a big S on it', and are too simple to fall under copyright, but attribution would be appreciated nonetheless._
 
-## Color Schemes Used
+### Color Schemes Used
 - [Paul Tol's colorblind friendly color schemes.](https://personal.sron.nl/~pault/)
 - [Paul Centore's conversion of Munsell centroids into RGB](https://www.munsellcolourscienceforpainters.com/ISCCNBS/ISCCNBSSystem.html)
 
 
-## Fonts used
+### Fonts used
 
 The generated images make use of the following typefaces:
 - [Quivira 4.1](http://www.quivira-font.com/), kindly released by Alexander Lange into the public domain 
