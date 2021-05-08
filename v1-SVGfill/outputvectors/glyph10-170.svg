@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<svg width="10in" height="10in" version="1.1" viewBox="0 0 1000 1000" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
- <path d="m72.687 376.65 57.269-244.49 222.47-63.877 568.28 572.69-48.458 220.26-222.47 70.485z" style="fill:#FDF;paint-order:markers fill stroke"/>
- <circle id="e" cx="130.07" cy="136.67" r="75" style="fill:#525"/>
- <use id="d" transform="translate(217.49 -61.674)" width="100%" height="100%" xlink:href="#e"/>
- <use id="c" transform="translate(-272.56 297.25)" width="100%" height="100%" xlink:href="#d"/>
- <use id="b" transform="translate(792.84 480.18)" width="100%" height="100%" xlink:href="#c"/>
- <use id="a" transform="translate(-215.4 72.577)" width="100%" height="100%" xlink:href="#b"/>
- <use transform="translate(272.56 -283.57)" width="100%" height="100%" xlink:href="#a"/><text x="500" y="720" font-size="750" font-family="CMU Serif, Ma Shan Zheng, Quivira" fill="#054208" text-anchor="middle">九</text></svg>

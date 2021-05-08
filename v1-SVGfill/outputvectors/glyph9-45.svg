@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<svg width="10in" height="10in" version="1.1" viewBox="0 0 1000 1000" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-<path id="c" d="m50 50 149.78 149.78" style="fill:#CEF;paint-order:markers fill stroke;stroke-linecap:round;stroke-linejoin:round;stroke-width:100;stroke:#255"/>
- <path d="m549.52 995.22c-355.78 35.578 115.01-131.68-161.72-358.09-276.73-226.42-347.45 268.17-383.02-87.606-35.578-355.78 131.68 115.01 358.09-161.72 226.42-276.73-268.17-347.45 87.606-383.02 355.78-35.578-115.01 131.68 161.72 358.09 276.73 226.42 347.45-268.17 383.02 87.606 35.578 355.78-131.68-115.01-358.09 161.72-226.42 276.73 268.17 347.45-87.606 383.02z" style="fill:#CEF;paint-order:markers fill stroke"/>
- <use id="b" transform="translate(750.22 750.22)" width="100%" height="100%" xlink:href="#c"/>
- <use id="a" transform="matrix(-1 0 0 1 1e3 5e-6)" width="100%" height="100%" xlink:href="#b"/>
- <use transform="translate(750.22 -750.22)" width="100%" height="100%" xlink:href="#a"/><text x="500" y="720" font-size="750" font-family="CMU Serif, Ma Shan Zheng, Quivira" fill="#724a38" text-anchor="middle">γ</text></svg>
