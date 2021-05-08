@@ -1,5 +1,5 @@
 # Open Glyph Generator
-These scripts generate a large number of simple, visually distinct, open-license images.
+These scripts generate a large number of simple, visually distinct, open-license images. You can find the output images [here](v2-PythonPIL/output/).
 
 After watching [this video by Matt Parker](https://www.youtube.com/watch?v=VTDKqW_GLkw), I was inspired to make my own version of "Myriad Monomatch" using only open-license images.
 
