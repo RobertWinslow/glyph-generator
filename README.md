@@ -1,5 +1,5 @@
 # Open Glyph Generator
-These scripts generate a large number of simple, visually distinct, open-license images. You can find the output images [here](v2-PythonPIL/output/).
+These scripts generate a large number of simple, visually distinct, open-license images. You can find the output images in the 'generated images' folder.
 
 After watching [this video by Matt Parker](https://www.youtube.com/watch?v=VTDKqW_GLkw), I was inspired to make my own version of "Myriad Monomatch" using only open-license images.
 
@@ -17,29 +17,16 @@ Varying colors are added as an extra source of visual distinction, but are not t
 Here are some examples of output from version 2 of the generator, which outputs PNG images.
 
 <table><tr><td>
-<img src="v2-PythonPIL/output/blob-TDchrome-34.png" width="80">
-<img src="v2-PythonPIL/output/star-xkcd-9.png" width="80">
-<img src="v2-PythonPIL/output/triangle-quivira-220.png" width="80">
-<img src="v2-PythonPIL/output/hex-quivira-505.png" width="80">
-<img src="v2-PythonPIL/output/harsh-TDheart-2.png" width="80">
-<img src="v2-PythonPIL/output/harsh-quivira-753.png" width="80">
-<img src="v2-PythonPIL/output/flour-quivira-920.png" width="80">
-<img src="v2-PythonPIL/output/blob-TDcounter-6.png" width="80">
+<img src="mainOutput/blob-TDchrome-34.png" width="80">
+<img src="mainOutput/star-xkcd-9.png" width="80">
+<img src="mainOutput/triangle-quivira-220.png" width="80">
+<img src="mainOutput/hex-quivira-505.png" width="80">
+<img src="mainOutput/harsh-TDheart-2.png" width="80">
+<img src="mainOutput/harsh-quivira-753.png" width="80">
+<img src="mainOutput/flour-quivira-920.png" width="80">
+<img src="mainOutput/blob-TDcounter-6.png" width="80">
 </td></tr></table>
 
-
-Here are some examples from version 1 of the generator, which outputs vector graphics. These may not display properly if you don't have the right fonts installed. 
-
-<table><tr><td>
-<img src="v1-SVGfill/outputvectors/glyph3-127.svg" width="80">
-<img src="v1-SVGfill/outputvectors/glyph4-147.svg" width="80">
-<img src="v1-SVGfill/outputvectors/glyph5-28.svg" width="80">
-<img src="v1-SVGfill/outputvectors/glyph2-400.svg" width="80">
-<img src="v1-SVGfill/outputvectors/glyph1-299.svg" width="80">
-<img src="v1-SVGfill/outputvectors/glyph6-36.svg" width="80">
-<img src="v1-SVGfill/outputvectors/glyph7-99.svg" width="80">
-<img src="v1-SVGfill/outputvectors/glyph8-536.svg" width="80">
-</td></tr></table>
 
 ---
 
@@ -61,31 +48,23 @@ _Of course, most of the generated images are things like 'yellow square with a b
 
 ### Fonts used
 
-#### V1 fonts referenced
-The generated svg files for the V1 version depend on the following typefaces to render as intended. These fonts are not included in this repo.
-- [Quivira 4.1](http://www.quivira-font.com/), kindly released by Alexander Lange into the public domain 
-- [Ma Shen Zheng](https://fonts.google.com/specimen/Ma+Shan+Zheng#glyphs), used under the [Open Font License](https://scripts.sil.org/cms/scripts/page.php?site_id=nrsi&id=OFL)
-- Computer Modern by Donald Knuth, used under the [Open Font License](https://scripts.sil.org/cms/scripts/page.php?site_id=nrsi&id=OFL)
-
-#### V2 fonts rendered.
-V2 actually renders the text into an image, so you don't have to have the fonts installed to [view the results](v2-PythonPIL/output/). 
-I've stuck with public domain fonts as the input for this version, and included these fonts [in the repo here](v2-PythonPIL/fonts/), if you'd like to install them and play around with the generator yourself. 
+I've stuck with public domain fonts as the input for this version, and included these fonts [in the repo here](v2-PythonPIL/fonts/), if you'd like to install them yourself. 
 
 In addition to Quivira, V2 also makes use of some goofy public domain fonts by [Typodermic Fonts Inc](https://typodermicfonts.com/public-domain/).
 
 There is one font missing from the font folder, though. In reference to [this XKCD strip](https://xkcd.com/2206/) about "capital numbers", I put together my own rendition, which you can see below. But alas, I know very little about font creation tools. And while I was able to just barely mangle another font enough to replace its letters, the resulting file, `ComputerMavisSerif-Roman_0.ttf`, is currently in too shameful a state to share.
 
 <table><tr><td>
-<img src="v2-PythonPIL/output/blob-xkcd-0.png" width="70">
-<img src="v2-PythonPIL/output/blob-xkcd-1.png" width="70">
-<img src="v2-PythonPIL/output/blob-xkcd-2.png" width="70">
-<img src="v2-PythonPIL/output/blob-xkcd-3.png" width="70">
-<img src="v2-PythonPIL/output/blob-xkcd-4.png" width="70">
-<img src="v2-PythonPIL/output/blob-xkcd-5.png" width="70">
-<img src="v2-PythonPIL/output/blob-xkcd-6.png" width="70">
-<img src="v2-PythonPIL/output/blob-xkcd-7.png" width="70">
-<img src="v2-PythonPIL/output/blob-xkcd-8.png" width="70">
-<img src="v2-PythonPIL/output/blob-xkcd-9.png" width="70">
+<img src="mainOutput/blob-xkcd-0.png" width="70">
+<img src="mainOutput/blob-xkcd-1.png" width="70">
+<img src="mainOutput/blob-xkcd-2.png" width="70">
+<img src="mainOutput/blob-xkcd-3.png" width="70">
+<img src="mainOutput/blob-xkcd-4.png" width="70">
+<img src="mainOutput/blob-xkcd-5.png" width="70">
+<img src="mainOutput/blob-xkcd-6.png" width="70">
+<img src="mainOutput/blob-xkcd-7.png" width="70">
+<img src="mainOutput/blob-xkcd-8.png" width="70">
+<img src="mainOutput/blob-xkcd-9.png" width="70">
 </td></tr></table>
 
 
