@@ -6,7 +6,7 @@ After watching [this video by Matt Parker](https://www.youtube.com/watch?v=VTDKq
 
 **Problem:** I need over 10,000 such images to make the cards.
 
-**Solution:** Unicode fonts already contain many visually distinct glyphs. So I multiply several-hundred characters from open fonts with a set of backgrounds I made myself.
+**Solution:** Unicode fonts already contain many visually distinct glyphs. So I multiply several-hundred characters from open-license fonts with a set of backgrounds I made myself.
 
 Varying colors are added as an extra source of visual distinction, but are not themselves used to distinguish between glyphs. That is, there isn't a pair of glyphs with the same background and character.
 
@@ -69,11 +69,11 @@ The generated svg files for the V1 version depend on the following typefaces to 
 
 #### V2 fonts rendered.
 V2 actually renders the text into an image, so you don't have to have the fonts installed to [view the results](v2-PythonPIL/output/). 
-I've stuck with public domain fonts as the input for this version, and included these fonts [in the repo here](v2-PythonPIL/fonts/), if you'd like to install them and play around with the code yourself. 
+I've stuck with public domain fonts as the input for this version, and included these fonts [in the repo here](v2-PythonPIL/fonts/), if you'd like to install them and play around with the generator yourself. 
 
 In addition to Quivira, V2 also makes use of some goofy public domain fonts by [Typodermic Fonts Inc](https://typodermicfonts.com/public-domain/).
 
-There is one font missing from the font folder though. 
+There is one font missing from the font folder, though. In reference to [this XKCD strip](https://xkcd.com/2206/) about "capital numbers", I put together my own rendition, which you can see below. But alas, I know very little about font creation tools. And while I was able to just barely mangle another font enough to replace its letters, the resulting file, `ComputerMavisSerif-Roman_0.ttf`, is currently in too shamful a state to share.
 
 <table><tr><td>
 <img src="v2-PythonPIL/output/blob-xkcd-0.png" width="70">
