@@ -10,12 +10,6 @@ Solution that works for individual images: Use a web browser to render and conve
 Bulk Solution: Rewrite the glyph generator to directly generate PNGs.
 
 Sidenote: Since I need to rewrite the image generation code, I may as well play around with a different aesthetic.
-The generated images:
-    
-    Computer Modern (SIL Open Font license)
-    Ma Shan Zheng (SIL Open Font license)
-    Quivira (Public Domain)
-
 
 """
 #%%
@@ -35,12 +29,6 @@ textcolors = ["#742434","#823322","#814a25",'#705420',"#64591a","#495b22",
 tci = 0; #text color index (introduce irregularity by not restarting the color cycle for each bg) There are 23 entries, which should hopefully be coprime with any other numbers that pop up in cycles.
 
 #Some of the public domain fonts I found have multiple layers. So lets add another list of coprime size to cycle through those.
-'''textcolors2 = ["#d9f6f7","#eaffe1","#fdd7ff","#ebf0ff","#fff9e5",
-               "#d51c3c","#e83b1b","#f7760b","#f39e11","#f1bf15",
-               "#ebdd21","#a7dc26","#3fd740","#23eaa5","#13fcd5",
-               "#00adc5","#1b5cd7","#4436d1","#7931d3","#b935d5",
-               "#d429b9","#dd2388","#fca1e7","#f48fa0","#f59080",
-               "#00adc5","#1b5cd7","#4436d1","#7931d3",]'''
 textcolors2 = ["#d51c3c","#e83b1b","#ff9d50",'#ffbe50',"#f7ce50",
                "#e9dc55","#c3df69","#87d989","#49d0a3","#35d7ce",
                "#2dbce2","#419ded","#9099ff","#ad90fa","#ce8ce3",
