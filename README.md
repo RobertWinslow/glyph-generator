@@ -1,5 +1,5 @@
 # Open Glyph Generator
-Generates a large number of visually distinct open license images.
+These scripts generate a large number of simple, visually distinct, open-license images.
 
 After watching [this video by Matt Parker](https://www.youtube.com/watch?v=VTDKqW_GLkw), I was inspired to make my own version of "Myriad Monomatch" using only open-license images.
 
@@ -14,7 +14,21 @@ Varying colors are added as an extra source of visual distinction, but are not t
 
 ## Examples
 
-Here are some examples of output from version 1 of the generator, which outputs vector graphics: 
+Here are some examples of output from version 2 of the generator, which outputs PNG images.
+
+<table><tr><td>
+<img src="v2-PythonPIL/output/blob-TDchrome-34.png" width="80">
+<img src="v2-PythonPIL/output/blob-TDchrome-34.png" width="80">
+<img src="v2-PythonPIL/output/blob-TDchrome-34.png" width="80">
+<img src="v2-PythonPIL/output/blob-TDchrome-34.png" width="80">
+<img src="v2-PythonPIL/output/blob-TDchrome-34.png" width="80">
+<img src="v2-PythonPIL/output/blob-TDchrome-34.png" width="80">
+<img src="v2-PythonPIL/output/blob-TDchrome-34.png" width="80">
+<img src="v2-PythonPIL/output/blob-TDchrome-34.png" width="80">
+</td></tr></table>
+
+
+Here are some examples of output from version 1 of the generator, which outputs vector graphics. These may not display properly if you don't have the right fonts installed. 
 
 <table><tr><td>
 <img src="v1-SVGfill/outputvectors/glyph3-127.svg" width="80">
