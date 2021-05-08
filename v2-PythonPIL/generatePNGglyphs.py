@@ -184,31 +184,27 @@ tdfont1 = ImageFont.truetype('Counterscraps.otf',450)
 
 #%% PROCEDURE Make the things
 
-#genglyphset('0123456789','ComputerMavisSerif-Roman_0.ttf','xkcd',450) #xkcd.com/2206
+#genglyphset('0123456789','ComputerMavisSerif-Roman_0.ttf','xkcd',450) #xkcd.com/2206. I made the font.
 
-#genglyphset(quiviralist,'Quivira.otf','quivira',430)
-#genglyphset('🂡🂼🃍🃞🃵🀐🀟🀔🀄🀃','Quivira.otf','quivira-cards',650)
-#genglyphset('🁢🁣🁤🁥🁦🁧🁨🁩🁫🁬🁭🁮🁯🁰🁳🁴🁵🁶🁷🁻🁼🁽🁾🂃🂄🂅🂋🂌🂓','Quivira.otf','quivira-domino',380)
+genglyphset(quiviralist,'Quivira.otf','quivira',430)
+genglyphset('🂡🂼🃍🃞🃵🀐🀟🀔🀄🀃','Quivira.otf','quivira-cards',650)
+genglyphset('🁢🁣🁤🁥🁦🁧🁨🁩🁫🁬🁭🁮🁯🁰🁳🁴🁵🁶🁷🁻🁼🁽🁾🂃🂄🂅🂋🂌🂓','Quivira.otf','quivira-domino',380)
 
 
-#genglyphset(CLIST+llist+dlist,'Counterscraps.otf','TDcounter',420) #Typodermic CC0
-#genglyphset(CLIST+llist+dlist,'Sappy Mugs.otf','TDsappy',420)
+genglyphset(CLIST+llist+dlist,'Counterscraps.otf','TDcounter',420) #Typodermic CC0
+genglyphset(CLIST+llist+dlist,'Sappy Mugs.otf','TDsappy',420)
 
-#genglyphset(CLIST+dlist,'Neurochrome.otf','TDchrome',420,)
-#genglyphset('EUap','Oil Crisis A.otf','TDcar',170,)
+genglyphset(CLIST+dlist,'Neurochrome.otf','TDchrome',420,)
+genglyphset('EUap','Oil Crisis A.otf','TDcar',170,)
 #genglyphset(CLIST+dlist,'Pop Up Fontio.otf','TDpopup',500,)
 
-#genglyphset(CLIST+dlist,'Hawkeye Back.otf','TDhawkeye',420, 'Hawkeye Front.otf')
-#genglyphset(CLIST+dlist,'Groovy Ghosties Back.otf','TDghost',420, 'Groovy Ghosties Front.otf')
-#genglyphset(CLIST+dlist,'Graffiti Treat Back.otf','TDgraffiti',420, 'Graffiti Treat Front.otf')
-#genglyphset(CLIST+dlist,'Riot Act 2 Back.otf','TDriot',420, 'Riot Act 2 Front.otf')
-#genglyphset(CLIST+dlist,'Got No Heart.otf','TDheart',375, 'Got No Heart Solid.otf')
+genglyphset(CLIST+dlist,'Hawkeye Back.otf','TDhawkeye',420, 'Hawkeye Front.otf')
+genglyphset(CLIST+dlist,'Groovy Ghosties Back.otf','TDghost',420, 'Groovy Ghosties Front.otf')
+genglyphset(CLIST+dlist,'Graffiti Treat Back.otf','TDgraffiti',420, 'Graffiti Treat Front.otf')
+genglyphset(CLIST+dlist,'Riot Act 2 Back.otf','TDriot',420, 'Riot Act 2 Front.otf')
+genglyphset(CLIST+dlist,'Got No Heart.otf','TDheart',375, 'Got No Heart Solid.otf')
 
-genglyphset(CLIST+llist+dlist,'Bocartes-fritos.otf','OFLBocartes',375)
-
-
-
-
+#genglyphset(CLIST+llist+dlist,'Bocartes-fritos.otf','OFLBocartes',375)
 #genglyphset('ABCDEFGHIJKLMNOPQRSTUVWXYZabefghijklmnrstu0123456789αβΓγΔδεζηΘθιλμΞξπρΣσςτΦφχΨψΩω',CMUfont,'CMUmathy')
 #genglyphset('一二三四五六七八九十百千万亿肉牛马羊鸟鱼龟狗猫鼠龙鹿虫人男女子鬼巫王工学生飞火土金木水日月山天川风雪雨电米果田葱松豆韭玉中大小开上下出重凹凸左右不口心手齿羽爪目头耳舌面足鼻画刀车网书矛串纸门弓舟油图国赤黑白红黄蓝紫灰',MSZfont,'hanzi')
 
