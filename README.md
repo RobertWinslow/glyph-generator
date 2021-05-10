@@ -42,7 +42,7 @@ After watching [this video by Matt Parker](https://www.youtube.com/watch?v=VTDKq
 
 **Solution:** Unicode fonts already contain many visually distinct glyphs. So I multiply several-hundred characters from open-license fonts with a set of backgrounds I made myself.
 
-Varying colors are added as an extra source of visual distinction, but are not themselves used to distinguish between glyphs. That is, there shouldn't a pair of glyphs with the same character and background type, so it should be possible to distinguish between all the images even in black&white. If you find two characters which are too similar to each other (for example, I initially left in both `9` and `6` in the characters list), please let me know under the Issues tab up above.
+Varying colors are added as an extra source of visual distinction, but are not themselves used to distinguish between glyphs. That is, there shouldn't a pair of glyphs with the same character and background type, so it should be possible to distinguish between all the images even in black&white. If you find two characters which are too similar to each other (for example, I initially left in both `9` and `6` in the characters list), please let me know under the [Issues tab](https://github.com/RobertWinslow/glyph-generator/issues) for this project.
 
 
 
