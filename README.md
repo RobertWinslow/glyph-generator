@@ -1,16 +1,6 @@
 # Simple Open Glyph Generator
 These scripts generate a large number of simple, visually distinct, open-license images. You can find the ~11,000 output images [here](v2-PythonPIL/output/), or by using the [download link](https://github.com/RobertWinslow/glyph-generator/releases/) on the right.
 
-After watching [this video by Matt Parker](https://www.youtube.com/watch?v=VTDKqW_GLkw), I was inspired to make my own version of "Myriad Monomatch" using only open-license images.
-
-
-**Problem:** I need over 10,000 such images to make the cards.
-
-**Solution:** Unicode fonts already contain many visually distinct glyphs. So I multiply several-hundred characters from open-license fonts with a set of backgrounds I made myself.
-
-Varying colors are added as an extra source of visual distinction, but are not themselves used to distinguish between glyphs. That is, there shouldn't a pair of glyphs with the same character and background shape, so it should be possible to distinguish between all the images even in black&white.
-
-
 
 ## Examples
 
@@ -40,6 +30,21 @@ Here are some examples from version 1 of the generator, which outputs vector gra
 <img src="v1-SVGfill/outputvectors/glyph7-99.svg" width="80">
 <img src="v1-SVGfill/outputvectors/glyph8-536.svg" width="80">
 </td></tr></table>
+
+
+
+
+## Description
+
+After watching [this video by Matt Parker](https://www.youtube.com/watch?v=VTDKqW_GLkw), I was inspired to make my own version of "Myriad Monomatch" using only open-license images.
+
+**Problem:** I need over 10,000 such images to make the cards.
+
+**Solution:** Unicode fonts already contain many visually distinct glyphs. So I multiply several-hundred characters from open-license fonts with a set of backgrounds I made myself.
+
+Varying colors are added as an extra source of visual distinction, but are not themselves used to distinguish between glyphs. That is, there shouldn't a pair of glyphs with the same character and background type, so it should be possible to distinguish between all the images even in black&white. If you find two characters which are too similar to each other (for example, I initially left in both `9` and `6`), please let me know under the Issues tab up above.
+
+
 
 ---
 
