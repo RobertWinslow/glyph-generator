@@ -80,7 +80,7 @@ I've stuck with public domain fonts as the input for this version, and included 
 
 In addition to Quivira, V2 also makes use of some goofy public domain fonts by [Typodermic Fonts Inc](https://typodermicfonts.com/public-domain/).
 
-There is one font missing from the font folder, though. In reference to [this XKCD strip](https://xkcd.com/2206/) about "capital numbers", I put together my own rendition, which you can see below. But alas, I know very little about font creation tools. And while I was able to just barely mangle another font enough to replace its letters, the resulting file, `ComputerMavisSerif-Roman_0.ttf`, is currently in too shameful a state to share.
+There is one font missing from the font folder, though. In reference to [this XKCD strip](https://xkcd.com/2206/) about "capital numbers", I put together my own rendition, which you can see below. But alas, I know very little about font creation tools. And while I was able to just barely mangle another font enough to replace its digits, the resulting file, `ComputerMavisSerif-Roman_0.ttf`, is currently in too shameful a state to share.
 
 <table><tr><td>
 <img src="v2-PythonPIL/output/blob-xkcd-0.png" width="70">
