@@ -25,7 +25,7 @@ You can find the generated images in the `mainOutput` folder. Some additional fi
 
 ### Copyright: public domain.
 All generated images in this repo are released into the public domain under [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/), 
-meaning you can use them in any way you like. Sell them, repost them, remix them, etc. No permission needed. No resttictions whatsoever.
+meaning you can use them in any way you like. Sell them, repost them, remix them, etc. No permission needed. No restrictions whatsoever.
 
 There is no legal obligation to give attribution, but if you make use of these images, attribution would nonetheless be appreciated.
 Something like the following in a readme:
