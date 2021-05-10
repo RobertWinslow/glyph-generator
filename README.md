@@ -47,13 +47,13 @@ Here are some examples from version 1 of the generator, which outputs vector gra
 
 
 ### Images
-All generated images in this repo are released into the public domain under [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/), 
+All resources in this repo are released into the public domain under [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/), 
 meaning you can use them in any way you like. Sell them, repost them, remix them, etc. No permission needed. No restrictions whatsoever.
 
-There is no legal obligation to give attribution, but if you make use of these images, attribution would nonetheless be appreciated.
-Something like the following in a readme:
+There is no legal obligation to give attribution, but if you make use of these images, a mention and a link would nonetheless be appreciated.
+Something like the following:
 
-> Simple Open Glyph Set by Robert Winslow https://github.com/RobertWinslow/glyph-generator
+> Simple Open Glyph Set made by Robert Winslow https://github.com/RobertWinslow/glyph-generator
 
 
 
