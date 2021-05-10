@@ -49,16 +49,16 @@ I've stuck with public domain fonts as the input for this release, and included 
 In reference to [this XKCD strip](https://xkcd.com/2206/) about "capital numbers", I put together my own rendition, which you can see below. But alas, I know very little about font creation tools. And while I was able to just barely mangle another font enough to replace its numbers, the resulting file, `ComputerMavisSerif-Roman_0.ttf`, is currently in too shameful a state to share. 
 
 <table><tr><td>
-<img src="mainOutput/blob-xkcd-0.png" width="70">
-<img src="mainOutput/blob-xkcd-1.png" width="70">
-<img src="mainOutput/blob-xkcd-2.png" width="70">
-<img src="mainOutput/blob-xkcd-3.png" width="70">
-<img src="mainOutput/blob-xkcd-4.png" width="70">
-<img src="mainOutput/blob-xkcd-5.png" width="70">
-<img src="mainOutput/blob-xkcd-6.png" width="70">
-<img src="mainOutput/blob-xkcd-7.png" width="70">
-<img src="mainOutput/blob-xkcd-8.png" width="70">
-<img src="mainOutput/blob-xkcd-9.png" width="70">
+<img src="supplemental/xkcdMavis/blank-xkcd-0.png" width="70">
+<img src="supplemental/xkcdMavis/blank-xkcd-1.png" width="70">
+<img src="supplemental/xkcdMavis/blank-xkcd-2.png" width="70">
+<img src="supplemental/xkcdMavis/blank-xkcd-3.png" width="70">
+<img src="supplemental/xkcdMavis/blank-xkcd-4.png" width="70">
+<img src="supplemental/xkcdMavis/blank-xkcd-5.png" width="70">
+<img src="supplemental/xkcdMavis/blank-xkcd-6.png" width="70">
+<img src="supplemental/xkcdMavis/blank-xkcd-7.png" width="70">
+<img src="supplemental/xkcdMavis/blank-xkcd-8.png" width="70">
+<img src="supplemental/xkcdMavis/blank-xkcd-9.png" width="70">
 </td></tr></table>
 
 
