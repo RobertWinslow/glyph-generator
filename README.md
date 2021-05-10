@@ -8,7 +8,7 @@ You can find the generated images in the `mainOutput` folder. Some additional fi
 
 <table><tr><td>
 <img src="mainOutput/blob-TDchrome-34.png" width="80">
-<img src="mainOutput/star-xkcd-9.png" width="80">
+<img src="mainOutput/star-xkcd-6.png" width="80">
 <img src="mainOutput/triangle-quivira-220.png" width="80">
 <img src="mainOutput/hex-quivira-505.png" width="80">
 <img src="mainOutput/harsh-TDheart-2.png" width="80">
