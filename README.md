@@ -1,20 +1,10 @@
-# Simple Open Glyph Generator
-These scripts generate a large number of simple, visually distinct, open-license images. You can find the output images in the 'generated images' folder.
+# Simple Open Glyph Set
 
-After watching [this video by Matt Parker](https://www.youtube.com/watch?v=VTDKqW_GLkw), I was inspired to make my own version of "Myriad Monomatch" using only open-license images.
-
-
-**Problem:** I need over 10,000 such images to make the cards.
-
-**Solution:** Unicode fonts already contain many visually distinct glyphs. So I multiply several-hundred characters from open-license fonts with a set of backgrounds I made myself.
-
-Varying colors are added as an extra source of visual distinction, but are not themselves used to distinguish between glyphs. That is, there isn't a pair of glyphs with the same background and character.
+You can find the generated images in the `mainOutput` folder. Some additional files are included in the `supplemental` folder, including the fonts and janky code used to generate the images.
 
 
 
 ## Examples
-
-Here are some examples of output from version 2 of the generator, which outputs PNG images.
 
 <table><tr><td>
 <img src="mainOutput/blob-TDchrome-34.png" width="80">
@@ -33,14 +23,15 @@ Here are some examples of output from version 2 of the generator, which outputs 
 ## Licensing and Attribution.
 
 
-### Images
-All generated images in this repo are usable under [CC-BY-4.0](https://creativecommons.org/licenses/by/4.0/), 
-meaning you can use them in any way you like as long as you provide attribution and link to the license. 
-Something like the following in a readme will suffice:
+### Copyright: public domain.
+All generated images in this repo are released into the public domain under [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/), 
+meaning you can use them in any way you like. Sell them, repost them, remix them, etc. No permission needed. No resttictions whatsoever.
 
-> Open Glyph Set copyright 2021 Robert Winslow, CC-BY-4.0
+There is no legal obligation to give attribution, but if you make use of these images, attribution would nonetheless be appreciated.
+Something like the following in a readme:
 
-_Of course, most of the generated images are things like 'yellow square with a big S on it', and are too simple to individually fall under copyright, but attribution would be appreciated nonetheless._
+> Simple Open Glyph Set by Robert Winslow https://github.com/RobertWinslow/glyph-generator
+
 
 ### Color Schemes Used
 - [Paul Tol's colorblind friendly color schemes.](https://personal.sron.nl/~pault/)
@@ -48,11 +39,14 @@ _Of course, most of the generated images are things like 'yellow square with a b
 
 ### Fonts used
 
-I've stuck with public domain fonts as the input for this version, and included these fonts [in the repo here](v2-PythonPIL/fonts/), if you'd like to install them yourself. 
+I've stuck with public domain fonts as the input for this release, and included these fonts in the download.
 
-In addition to Quivira, V2 also makes use of some goofy public domain fonts by [Typodermic Fonts Inc](https://typodermicfonts.com/public-domain/).
+- Most of the characters come from [Quivira](http://www.quivira-font.com/), by Alexander Lange.
+- This set also makes use of some goofy public domain fonts by [Typodermic Fonts Inc](https://typodermicfonts.com/public-domain/).
+- A custom set of digits I made based on an xkcd strip. These glyphs are also in the public domain, but the font is not included in this release. See below.
 
-There is one font missing from the font folder, though. In reference to [this XKCD strip](https://xkcd.com/2206/) about "capital numbers", I put together my own rendition, which you can see below. But alas, I know very little about font creation tools. And while I was able to just barely mangle another font enough to replace its letters, the resulting file, `ComputerMavisSerif-Roman_0.ttf`, is currently in too shameful a state to share.
+
+In reference to [this XKCD strip](https://xkcd.com/2206/) about "capital numbers", I put together my own rendition, which you can see below. But alas, I know very little about font creation tools. And while I was able to just barely mangle another font enough to replace its numbers, the resulting file, `ComputerMavisSerif-Roman_0.ttf`, is currently in too shameful a state to share. 
 
 <table><tr><td>
 <img src="mainOutput/blob-xkcd-0.png" width="70">
