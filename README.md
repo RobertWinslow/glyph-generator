@@ -1,5 +1,5 @@
 # Simple Open Glyph Generator
-These scripts generate a large number of simple, visually distinct, open-license images. You can find the output images [here](v2-PythonPIL/output/), or by using the download link on the right.
+These scripts generate a large number of simple, visually distinct, open-license images. You can find the ~11,000 output images [here](v2-PythonPIL/output/), or by using the [download link](https://github.com/RobertWinslow/glyph-generator/releases/) on the right.
 
 After watching [this video by Matt Parker](https://www.youtube.com/watch?v=VTDKqW_GLkw), I was inspired to make my own version of "Myriad Monomatch" using only open-license images.
 
@@ -8,7 +8,7 @@ After watching [this video by Matt Parker](https://www.youtube.com/watch?v=VTDKq
 
 **Solution:** Unicode fonts already contain many visually distinct glyphs. So I multiply several-hundred characters from open-license fonts with a set of backgrounds I made myself.
 
-Varying colors are added as an extra source of visual distinction, but are not themselves used to distinguish between glyphs. That is, there isn't a pair of glyphs with the same background and character.
+Varying colors are added as an extra source of visual distinction, but are not themselves used to distinguish between glyphs. That is, there shouldn't a pair of glyphs with the same character and background shape, so it should be possible to distinguish between all the images even in black&white.
 
 
 
