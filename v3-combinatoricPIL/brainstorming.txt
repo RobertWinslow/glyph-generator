@@ -1,0 +1,176 @@
+Here's an idea for the future:
+
+Make an even simpler version with 4 or 5 distinct inputs that matter.
+
+The current version has only 2: background and character.
+
+
+I could instead make a generator with only a few examples of each category, but more categories to combine.
+
+For example:
+
+
+- 5 background shapes: square, circle, (blob/star), hex, triangle 
+- 3 background fills: outline only, solid color, dashfill
+- Letters: R,H,Q,Z,L,(R,N,W, pi?), 
+- Several different font types: Simple sans serif, MathBB with serif, flowing script, lowercase, weirdo TD fonts stylings?
+- An intermediate ring? square circle star etc, outline only?
+- number of dots on intermediate ring 0 1 2 3 4
+
+Or I could do numbers instead of letters. 0-8, fonts would be simple, xkcd, hanzi, graffiti, ghost, chrome, domino?, enclosed, dice?
+
+colors added as secondary information, but not a category themselves. Orr.... I could have three distinct colors. That would be easy to prevent color-blind conflicts, but it would make the printability lower.
+
+
+
+
+TODO also: remove the Zs from the repo and release! How did I miss that?!
+
+
+
+
+
+
+
+
+
+
+Another idea for generation: faces!
+The human eye is fantastic at picking out faces. I could add some random non-distinguishin size variation in there too.
+
+
+Headshape (color variation)
+Eyes
+Nose (color variation, more saturated?
+Mouth
+Hair (color variation)
+Ears?
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+What about a Mega monomatcch? Dobble of Babel? (1010 * 1010) + 1011 = 1021111 cards with 1,021,111 symbols each?
+
+Is such a thing even possible? Each output would need to be a book's worth in size.
+
+Output to html with embedded svgs. 
+
+Oh! Or it could just be text output!
+
+five vowels aeiou
+9 toki pona consonants  ptksmnlwj
+Gives 45 distinct syllables
+4 syllables per word gives 4,100,625 distinct consonants,
+Or we could do 3 consonsants, combined with 12 terminators/beginners? 
+
+Or a,e,i,o,u,an,en,in,on,un x ptlsmlwj for 80 distinct syllables?
+80x80x80 x2 terminators (blank or 'k') for a total 1024000 distinct "words"
+
+
+Or if I include smaller words, 
+80 or 160 short words
+6400 or 12800 med words
+512 or 1024000 long words
+
+
+For first scheme, that's 45+2025+91125+4100625
+
+
+
+
+OR even simple, keep everything a power of 2 so the transformation can just turn the binary into a unique word.
+Ignore leading 0s.
+
+Last digit will be blank of k (or maybe this is the representation of negative numbers?)
+next two digits from last will be vowel: a,i,o,u,an,en,in,un...
+the consonant: p,b,d,t,k,g,f,v, th, s, z, sh, h, ch, j, n,b,l,r,w,y, but expanded to 31 or trimmed to 16
+
+
+0->A
+1->I
+2=10->O
+...
+8=100=001 00->Pa
+9=101=001 01->Pi
+...
+=1000000=01 000 00->Apa
+
+
+1,021,111 = 11 111 001 01 001 01 101 11
+-> 
+
+
+
+
+Or 4 bits per snippet. One for beginning of syllable. one for end? aeiou,ar,er,ir,or,ur,an,en,in,on,un,oo
+
+
+
+Generate with full length thing then just remove the bleh syllables from the left hand side.
+
+
+
+
+
+Another possibility is to use word pairs. Or Subject Verb Object.
+
+101 of each would be enough.
+Or 64 subjects, 128 verbs, 128 objects
+
+
+
+
+Explanation using different version? Nah, that's too hard. Well, if there are 7 chunks, with 8 variants each...
+
+
+This is book number # out of 1,021,111 in the Great Finite Projective Library.
+
+[Each][book][within][this library][shares][exactly] 1 full sentence with each other [book]. 
+
+
+NEEDED Functions: 
+index integer->list (book/card) of integers (sentences/symbols on that card)
+symbol integer -> unique sentence.
+card->book
+intro generator
+
+
+[I ate][an entire goat][, and regretted it]
+[You played football with][an elephant][every day.]
+[The president is secretly][][and everyone knows it.]
+
+
+
+7,8,8
+4,4,4,4,4,4
+5,5,5,5,3
+6 chunks with 16 fragments each?
+5 with 32 each
+[Remember that][
+
+
+Imperitive
+[O,learn][verb][object]
+[clean][throw a
+
+iambic hexameter?
+
+
