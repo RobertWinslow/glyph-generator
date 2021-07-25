@@ -1,15 +1,5 @@
 # Simple Open Glyph Generator
-These scripts generate a large number of simple, visually distinct, open-license images. You can find the output images [here](v2-PythonPIL/output/), or by using the download link on the right.
-
-After watching [this video by Matt Parker](https://www.youtube.com/watch?v=VTDKqW_GLkw), I was inspired to make my own version of "Myriad Monomatch" using only open-license images.
-
-
-**Problem:** I need over 10,000 such images to make the cards.
-
-**Solution:** Unicode fonts already contain many visually distinct glyphs. So I multiply several-hundred characters from open-license fonts with a set of backgrounds I made myself.
-
-Varying colors are added as an extra source of visual distinction, but are not themselves used to distinguish between glyphs. That is, there isn't a pair of glyphs with the same background and character.
-
+These scripts generate a large number of simple, visually distinct, open-license images. You can find the ~11,000 output images [here](v2-PythonPIL/output/), or by using the [download link](https://github.com/RobertWinslow/glyph-generator/releases/) on the right.
 
 
 ## Examples
@@ -41,19 +31,34 @@ Here are some examples from version 1 of the generator, which outputs vector gra
 <img src="v1-SVGfill/outputvectors/glyph8-536.svg" width="80">
 </td></tr></table>
 
+
+
+
+## Description
+
+After watching [this video by Matt Parker](https://www.youtube.com/watch?v=VTDKqW_GLkw), I was inspired to make my own version of "Myriad Monomatch" using only open-license images.
+
+**Problem:** I need over 10,000 such images to make the cards.
+
+**Solution:** Unicode fonts already contain many visually distinct glyphs. So I multiply several-hundred characters from open-license fonts with a set of backgrounds I made myself.
+
+Varying colors are added as an extra source of visual distinction, but are not themselves used to distinguish between glyphs. That is, there shouldn't a pair of glyphs with the same character and background type, so it should be possible to distinguish between all the images even in black&white. If you find two characters which are too similar to each other (for example, I initially left in both `9` and `6` in the characters list), please let me know under the [Issues tab](https://github.com/RobertWinslow/glyph-generator/issues) for this project.
+
+
+
 ---
 
 ## Licensing and Attribution.
 
 
 ### Images
-All generated images in this repo are released into the public domain under [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/), 
+All resources in this repo are released into the public domain under [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/), 
 meaning you can use them in any way you like. Sell them, repost them, remix them, etc. No permission needed. No restrictions whatsoever.
 
-There is no legal obligation to give attribution, but if you make use of these images, attribution would nonetheless be appreciated.
-Something like the following in a readme:
+There is no legal obligation to give attribution, but if you make use of these images, a mention and a link would nonetheless be appreciated.
+Something like the following:
 
-> Simple Open Glyph Set by Robert Winslow https://github.com/RobertWinslow/glyph-generator
+> Simple Open Glyph Set made by Robert Winslow https://github.com/RobertWinslow/glyph-generator
 
 
 
@@ -75,7 +80,7 @@ I've stuck with public domain fonts as the input for this version, and included 
 
 In addition to Quivira, V2 also makes use of some goofy public domain fonts by [Typodermic Fonts Inc](https://typodermicfonts.com/public-domain/).
 
-There is one font missing from the font folder, though. In reference to [this XKCD strip](https://xkcd.com/2206/) about "capital numbers", I put together my own rendition, which you can see below. But alas, I know very little about font creation tools. And while I was able to just barely mangle another font enough to replace its letters, the resulting file, `ComputerMavisSerif-Roman_0.ttf`, is currently in too shameful a state to share.
+There is one font missing from the font folder, though. In reference to [this XKCD strip](https://xkcd.com/2206/) about "capital numbers", I put together my own rendition, which you can see below. But alas, I know very little about font creation tools. And while I was able to just barely mangle another font enough to replace its digits, the resulting file, `ComputerMavisSerif-Roman_0.ttf`, is currently in too shameful a state to share.
 
 <table><tr><td>
 <img src="v2-PythonPIL/output/blob-xkcd-0.png" width="70">
